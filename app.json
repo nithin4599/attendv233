@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "attenV2",
-    "slug": "attenV2",
+    "slug": "ok",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nkrash.attenV2"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ac3a87e2-62c3-4ee4-8e97-27a60a9688a6"
+      }
+    },
+    "owner": "okokok"
   }
 }
